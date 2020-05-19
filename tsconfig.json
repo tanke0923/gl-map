@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "skipLibCheck": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015"
+    ],
+    "noEmitHelpers": false,
+    "noUnusedLocals": false,
+    "allowUnreachableCode": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "./types"
+    ],
+    "baseUrl": ".",
+    "paths": {
+    }
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}
